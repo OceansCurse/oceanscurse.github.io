@@ -1,89 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Create professional Twitch and Discord emotes with OceansCurse's free Emote Marketing Tool. Easy, fast, and built for streamers!" />
+        <meta
+            name="keywords"
+            content="Twitch emotes, Discord emotes, streamer tools, emote design" />
+        <meta
+            name="author"
+            content="OceansCurse" />
+        <title>OceansCurse - Free Emote Marketing Tool for Streamers</title>
+        <link
+            rel="preconnect"
+            href="https://fonts.googleapis.com" />
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet" />
+        <link
+            rel="stylesheet"
+            href="main.css" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7879772301571812"
-        crossorigin="anonymous"></script>
-    <title>Ocean's Curse tools</title>
-
-    <style>
-        @import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
-
-        * {
-            font-family: "Exo 2", sans-serif;
-            font-optical-sizing: auto;
-            font-weight: 400;
-            font-style: normal;
-            color: #daeeff;
-        }
-        body {
-            padding: 2rem;
-            background-color: #1e2526;
-        }
-        a {
-          color: #E0E0E0; 
-        }
-        a:hover {
-          color: #26D6C8;
-          text-decoration: underline;
-        }
-        a:active {
-          color: #009688;
-        }
-        a:visited {
-          color: #80E0D5; 
-        }
-        ul {
-            padding: 0;
-        }
-        li {
-            list-style-type: none;
-            background-color: #323737;
-            padding: 1rem;
-            border-radius: 20px;
-        }
-        li a {
-            font-size: 2rem;
-        }
-        .flex {
-            display: flex;
-            align-items: center; 
-            gap: 1rem; 
-        }
-        .flex img {
-            width: 300px;
-            height: auto;
-            flex-shrink: 0;
-            margin: 20px auto;
-        }
-        .flex p {
-            margin: 0; 
-            flex: 1; 
-        }
-    </style>
-</head>
-
-<body>
-    <h1>Hello, World!</h1>
-    <h3>Welcome to my website.</h3>
-    <p>This page will contain an overview of all my tools I'd like to share with the world!</p>
-    <p>I hope you'll find them helpful!</p>
-    <h2>Tools</h2>
-    <ul>
-        <li>
-            <a href="/EmoteMarketingTool/">Emote resizing and marketing tool</a>
-            <div class="flex">
-                <a href="/EmoteMarketingTool/">
-                    <img src="/img/emote_marketing_tool.png" alt="Emote Marketing Tool Preview">
-                </a>
-                <p>
-                    A Vue-powered resizing and marketing tool effortlessly creates and customizes icons at various sizes, downloadable as a ZIP for seamless marketing campaigns. Boost your brand with fast, flexible icon generation!
-                </p>
+    </head>
+    <body>
+        <header>
+            <div class="logo-container">
+                <img
+                    src="images/logo.png"
+                    alt="OceansCurse Logo"
+                    class="logo" />
+                <nav>
+                    <ul>
+                        <li><a href="#emote-marketing-tool">Tools</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </nav>
             </div>
-        </li>
-    </ul>
-</body>
+        </header>
 
+        <section class="hero">
+            <h2>Create Stunning Emotes for Your Stream</h2>
+            <p>
+                Welcome to OceansCurse's tools, your go-to resource for streamers and content creators! This free Emote Marketing Tool helps you design professional emotes for Twitch, Discord, and
+                social media in minutes. Whether you're just starting out or a seasoned streamer, the tool makes branding easy and fun. Elevate your channel with custom graphics that stand out!
+            </p>
+            <a
+                href="/EmoteMarketingTool/"
+                class="cta-button">
+                Try the Tool Now
+            </a>
+            <img
+                src="images/emote_marketing_tool.png"
+                alt="Emote Marketing Tool screenshot"
+                width="600" />
+        </section>
+
+        <section
+            id="emote-marketing-tool"
+            class="section tool">
+            <h2>Emote Marketing Tool</h2>
+            <p>
+                This Emote Marketing Tool is designed to simplify your branding process. Create eye-catching emotes tailored to your channel's style with just a few clicks. Choose your colors and
+                sizes, and download high-quality images ready for Twitch, Discord, or social media promotion. It's free, fast, and built for streamers of all levels.
+            </p>
+            <ul class="features">
+                <li>Custom designs in minutes, no design skills needed.</li>
+                <li>High-resolution PNG and JPEG downloads for all platforms.</li>
+                <li>Intuitive interface perfect for beginners and pros alike.</li>
+                <li>Free to use, with no hidden costs.</li>
+            </ul>
+            <h3>See It in Action</h3>
+            <div class="tool-preview">
+                <img
+                    src="images/emote_generation_preview.jpeg"
+                    alt="Sample emote created with the tool"
+                    width="300" />
+                <a
+                    href="/EmoteMarketingTool/"
+                    class="cta-button">
+                    Start Creating
+                </a>
+            </div>
+            <blockquote class="testimonial">
+                <p>
+                    "This tool saved me hours of design work. My emotes look amazing!" – <cite><a href="https://ko-fi.com/incognitokairi">incognitokairi</a></cite>
+                </p>
+            </blockquote>
+        </section>
+
+        <section
+            id="about"
+            class="section about">
+            <h2>About OceansCurse</h2>
+            <p>
+                At OceansCurse, we're passionate about empowering streamers to succeed. The Emote Marketing Tool was created to make professional branding accessible to everyone, from new streamers to
+                established creators. We believe great design shouldn't be complicated or expensive. Explore this tool and start building your brand today!
+            </p>
+        </section>
+
+        <footer>
+            <p>&copy; <span id="current-year"></span> OceansCurse. All rights reserved.</p>
+            <p>
+                <a href="/privacy-policy/">Privacy Policy</a> | <a href="/terms-of-use/">Terms of Use</a>
+            </p>
+        </footer>
+    </body>
 </html>
+
+<script>
+    document.getElementById("current-year").textContent = new Date().getFullYear();
+</script>
